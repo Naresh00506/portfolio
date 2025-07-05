@@ -136,12 +136,14 @@ const page = () => {
                 <Sparkles className="w-5 h-5 mr-2" />
                 View Projects
               </Button>
-              <Button
-                variant="outline"
-                className="border-purple-400 text-purple-200 hover:bg-purple-500/10 px-8 py-6 text-lg rounded-full backdrop-blur-sm"
-              >
-                Download Resume
-              </Button>
+              <a href="/R.pdf" download>
+                <Button
+                  variant="outline"
+                  className="border-purple-400 text-purple-200 hover:bg-purple-500/10 px-8 py-6 text-lg rounded-full backdrop-blur-sm cursor-pointer"
+                >
+                  Download Resume
+                </Button>
+              </a>
             </div>
           </div>
         </header>
